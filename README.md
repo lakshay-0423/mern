@@ -49,6 +49,28 @@ This repository documents my day-by-day progress in learning the MERN stack with
 
 ---
 
+### ✅ Day 3 – Objects & Arrays
+**Topics Covered**
+- JavaScript objects
+- Arrays of objects
+- Nested objects
+- Iteration and filtering
+
+**Programs**
+- Created a student object (`name`, `age`, `marks`)
+- Accessed and printed object properties
+- Updated object values and added new properties
+- Created an array of student objects
+- Filtered students with marks greater than 50
+- Accessed and updated nested object data
+
+**Learning Outcome**
+- Understood how objects store structured data
+- Learned to work with arrays of objects
+- Improved data manipulation and real-world modeling skills
+
+---
+
 ## 🛠 Tech Stack
 - JavaScript (ES6)
 - Node.js (beginner)
@@ -60,7 +82,7 @@ This repository documents my day-by-day progress in learning the MERN stack with
 ## 📈 Progress Tracker
 - [x] Week 1 – Day 1
 - [x] Week 1 – Day 2
-- [ ] Week 1 – Day 3 (Objects & Arrays)
+- [x] Week 1 – Day 3
 - [ ] Week 1 – Day 4 (ES6 Features)
 - [ ] Week 1 – Day 5 (Node.js Basics)
 
