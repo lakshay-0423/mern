@@ -10,4 +10,8 @@ for(let key in stu){
 }
 
 stu.marks=89;
-console.log(stu.marks);
+stu["Grade"]='A';
+
+for(let key in stu){
+    console.log(key,stu[key]);
+}
