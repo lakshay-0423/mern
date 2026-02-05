@@ -71,6 +71,26 @@ This repository documents my day-by-day progress in learning the MERN stack with
 
 ---
 
+### ✅ Day 4 – ES6 Modern JavaScript
+**Topics Covered**
+- Arrow functions
+- Object and array destructuring
+- Spread and rest operators
+- Template literals
+
+**Programs**
+- Refactored previous code using arrow functions
+- Used destructuring with objects and arrays
+- Applied template literals for cleaner output
+- Used spread and rest operators for array manipulation
+
+**Learning Outcome**
+- Wrote cleaner and more readable JavaScript
+- Understood modern JavaScript syntax used in real projects
+- Improved code maintainability and clarity
+
+---
+
 ## 🛠 Tech Stack
 - JavaScript (ES6)
 - Node.js (beginner)
@@ -83,7 +103,7 @@ This repository documents my day-by-day progress in learning the MERN stack with
 - [x] Week 1 – Day 1
 - [x] Week 1 – Day 2
 - [x] Week 1 – Day 3
-- [ ] Week 1 – Day 4 (ES6 Features)
+- [x] Week 1 – Day 4
 - [ ] Week 1 – Day 5 (Node.js Basics)
 
 ---
