@@ -91,9 +91,29 @@ This repository documents my day-by-day progress in learning the MERN stack with
 
 ---
 
+### ✅ Day 5 – Node.js Basics
+**Topics Covered**
+- Node.js runtime environment
+- npm basics
+- Running JavaScript outside the browser
+- Creating a basic HTTP server
+
+**Programs**
+- Setup Node.js and npm
+- Created a basic Node.js script
+- Built a simple HTTP server
+- Sent “Hello World” response from server
+
+**Learning Outcome**
+- Understood how Node.js works as a backend runtime
+- Learned how to run JavaScript on the server
+- Built first backend server using Node.js
+
+---
+
 ## 🛠 Tech Stack
 - JavaScript (ES6)
-- Node.js (beginner)
+- Node.js
 - VS Code
 - Git & GitHub
 
@@ -104,7 +124,8 @@ This repository documents my day-by-day progress in learning the MERN stack with
 - [x] Week 1 – Day 2
 - [x] Week 1 – Day 3
 - [x] Week 1 – Day 4
-- [ ] Week 1 – Day 5 (Node.js Basics)
+- [x] Week 1 – Day 5
+- [ ] Week 1 – Day 6 (CLI CRUD App)
 
 ---
 
