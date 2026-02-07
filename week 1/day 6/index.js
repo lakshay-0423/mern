@@ -34,3 +34,22 @@ if (action === 'view') {
     const students = readStudents();
     console.log(students);
 }
+
+if(action === 'update'){
+    const id = Number(process.argv[3]);
+    const newName = process.argv[4];
+    const newAge = process.argv[5];
+
+    const students = readStudents();
+    const student = students.find(s=>s.id===id);
+
+    if(!student){
+        console.log("student not find");
+        return;
+    }
+
+    student.name=newName;
+    student.age=newAge;
+    writeStudents(students);
+    console.log('student updated');
+}
