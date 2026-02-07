@@ -20,12 +20,17 @@ if (action === 'add') {
     const students = readStudents();
 
     const newStudent = {
-        id : Date.now(),
-        name : name,
-        age : age
+        id: Date.now(),
+        name: name,
+        age: age
     }
 
     students.push(newStudent);
     writeStudents(students);
     console.log("student added");
+}
+
+if (action === 'view') {
+    const students = readStudents();
+    console.log(students);
 }
