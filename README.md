@@ -111,6 +111,28 @@ This repository documents my day-by-day progress in learning the MERN stack with
 
 ---
 
+### ✅ Day 6 – Node.js CLI + JSON File CRUD
+**Topics Covered**
+- Node.js `fs` module  
+- JSON file handling  
+- Command-line arguments using `process.argv`  
+- Backend CRUD logic without frameworks  
+
+**Programs**
+- Created a `students.json` file  
+- Built a CLI-based CRUD application:
+  - Add student  
+  - Update student  
+  - Delete student  
+  - View all students  
+
+**Learning Outcome**
+- Understood how backend logic works without Express  
+- Learned file-based data persistence  
+- Built a mini backend system using Node.js CLI  
+
+---
+
 ## 🛠 Tech Stack
 - JavaScript (ES6)
 - Node.js
@@ -125,7 +147,7 @@ This repository documents my day-by-day progress in learning the MERN stack with
 - [x] Week 1 – Day 3
 - [x] Week 1 – Day 4
 - [x] Week 1 – Day 5
-- [ ] Week 1 – Day 6 (CLI CRUD App)
+- [x] Week 1 – Day 6 (CLI CRUD App)
 
 ---
 
