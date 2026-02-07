@@ -53,3 +53,13 @@ if(action === 'update'){
     writeStudents(students);
     console.log('student updated');
 }
+
+if(action === 'delete'){
+    const id = Number(process.argv[3]);
+
+    let students = readStudents();
+    students = students.filter(s=>s.id!==id);
+
+    writeStudents(students);
+    console.log('student deleted');
+}
