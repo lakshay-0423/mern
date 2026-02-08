@@ -1,6 +1,6 @@
 # MERN Stack Learning Journey 🚀
 
-This repository documents my day-by-day progress in learning the MERN stack with a focus on becoming placement-ready and building real-world, deployable projects.
+This repository documents my **day-by-day progress** in learning the MERN stack, with a focus on becoming **placement-ready** and building **real-world, deployable projects**.
 
 ---
 
@@ -15,16 +15,16 @@ This repository documents my day-by-day progress in learning the MERN stack with
 - Basic Logic
 
 **Programs**
-- Sum of two numbers
-- Swap two variables
-- Even/Odd checker
-- Simple calculator
-- Average of array elements
+- Sum of two numbers  
+- Swap two variables  
+- Even/Odd checker  
+- Simple calculator  
+- Average of array elements  
 
 **Learning Outcome**
-- Understood core JavaScript syntax
-- Practiced basic arithmetic and conditional logic
-- Gained confidence writing simple JavaScript programs
+- Understood core JavaScript syntax  
+- Practiced basic arithmetic and conditional logic  
+- Gained confidence writing simple JavaScript programs  
 
 ---
 
@@ -36,16 +36,16 @@ This repository documents my day-by-day progress in learning the MERN stack with
 - Problem-solving using loops
 
 **Programs**
-- Print numbers from 1 to 50
-- Sum of array elements
-- Find maximum element in an array
-- Factorial using function and loop
-- Reverse a string
+- Print numbers from 1 to 50  
+- Sum of array elements  
+- Find maximum element in an array  
+- Factorial using function and loop  
+- Reverse a string  
 
 **Learning Outcome**
-- Learned how loops work for repetitive tasks
-- Improved logical thinking and array manipulation
-- Gained better understanding of functions
+- Learned how loops handle repetitive tasks  
+- Improved logical thinking and array manipulation  
+- Gained better understanding of functions  
 
 ---
 
@@ -57,17 +57,17 @@ This repository documents my day-by-day progress in learning the MERN stack with
 - Iteration and filtering
 
 **Programs**
-- Created a student object (`name`, `age`, `marks`)
-- Accessed and printed object properties
-- Updated object values and added new properties
-- Created an array of student objects
-- Filtered students with marks greater than 50
-- Accessed and updated nested object data
+- Created a student object (`name`, `age`, `marks`)  
+- Accessed and printed object properties  
+- Updated object values and added new properties  
+- Created an array of student objects  
+- Filtered students with marks greater than 50  
+- Accessed and updated nested object data  
 
 **Learning Outcome**
-- Understood how objects store structured data
-- Learned to work with arrays of objects
-- Improved data manipulation and real-world modeling skills
+- Understood how objects store structured data  
+- Learned to work with arrays of objects  
+- Improved real-world data modeling skills  
 
 ---
 
@@ -79,15 +79,15 @@ This repository documents my day-by-day progress in learning the MERN stack with
 - Template literals
 
 **Programs**
-- Refactored previous code using arrow functions
-- Used destructuring with objects and arrays
-- Applied template literals for cleaner output
-- Used spread and rest operators for array manipulation
+- Refactored previous code using arrow functions  
+- Used destructuring with objects and arrays  
+- Applied template literals for cleaner output  
+- Used spread and rest operators for array manipulation  
 
 **Learning Outcome**
-- Wrote cleaner and more readable JavaScript
-- Understood modern JavaScript syntax used in real projects
-- Improved code maintainability and clarity
+- Wrote cleaner and more readable JavaScript  
+- Understood modern JavaScript used in real projects  
+- Improved code maintainability and clarity  
 
 ---
 
@@ -99,15 +99,15 @@ This repository documents my day-by-day progress in learning the MERN stack with
 - Creating a basic HTTP server
 
 **Programs**
-- Setup Node.js and npm
-- Created a basic Node.js script
-- Built a simple HTTP server
-- Sent “Hello World” response from server
+- Setup Node.js and npm  
+- Created a basic Node.js script  
+- Built a simple HTTP server  
+- Sent “Hello World” response from the server  
 
 **Learning Outcome**
-- Understood how Node.js works as a backend runtime
-- Learned how to run JavaScript on the server
-- Built first backend server using Node.js
+- Understood Node.js as a backend runtime  
+- Learned how server-side JavaScript works  
+- Built first backend server using Node.js  
 
 ---
 
@@ -127,7 +127,7 @@ This repository documents my day-by-day progress in learning the MERN stack with
   - View all students  
 
 **Learning Outcome**
-- Understood how backend logic works without Express  
+- Understood backend logic without Express  
 - Learned file-based data persistence  
 - Built a mini backend system using Node.js CLI  
 
@@ -142,16 +142,16 @@ This repository documents my day-by-day progress in learning the MERN stack with
 ---
 
 ## 📈 Progress Tracker
-- [x] Week 1 – Day 1
-- [x] Week 1 – Day 2
-- [x] Week 1 – Day 3
-- [x] Week 1 – Day 4
-- [x] Week 1 – Day 5
-- [x] Week 1 – Day 6 (CLI CRUD App)
+- [x] Week 1 – Day 1  
+- [x] Week 1 – Day 2  
+- [x] Week 1 – Day 3  
+- [x] Week 1 – Day 4  
+- [x] Week 1 – Day 5  
+- [x] Week 1 – Day 6 (CLI CRUD App)  
 
 ---
 
 ## 🎯 Goal
-- Become placement-ready using the MERN stack
-- Build and deploy real-world full-stack applications
-- Maintain consistent daily progress with clean GitHub commits
+- Become placement-ready using the MERN stack  
+- Build and deploy real-world full-stack applications  
+- Maintain consistent daily progress with clean GitHub commits  
