@@ -34,6 +34,20 @@ app.post("/students", (req, res) => {
     res.status(201).json(students);
 });
 
+app.put("/students/:id", (req, res) => {
+    const id = Number(req.params.id);
+    const { name, age } = req.body;
+
+    const student = students.find(s => s.id === id);
+    if (!student) {
+        return res.status(404).json({ msg: "Student not found" });
+    }
+    student.name = name || student.name;
+    student.age = age || student.age;
+
+    res.json(students);
+});
+
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
