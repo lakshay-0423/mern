@@ -4,154 +4,252 @@ This repository documents my **day-by-day progress** in learning the MERN stack,
 
 ---
 
-## 🗓 Week 1 – JavaScript & Node.js Basics
+# 🗓 Week 1 – JavaScript & Node.js Basics
 
-### ✅ Day 1 – JavaScript Basics
-**Topics Covered**
+## ✅ Day 1 – JavaScript Basics
+
+### Topics Covered
 - Variables (`let`, `const`)
 - Data Types
 - Operators
 - Conditional Statements
 - Basic Logic
 
-**Programs**
+### Programs
 - Sum of two numbers  
 - Swap two variables  
 - Even/Odd checker  
 - Simple calculator  
 - Average of array elements  
 
-**Learning Outcome**
+### Learning Outcome
 - Understood core JavaScript syntax  
-- Practiced basic arithmetic and conditional logic  
-- Gained confidence writing simple JavaScript programs  
+- Practiced arithmetic and conditional logic  
+- Gained confidence writing basic JS programs  
 
 ---
 
-### ✅ Day 2 – Loops & Functions
-**Topics Covered**
+## ✅ Day 2 – Loops & Functions
+
+### Topics Covered
 - `for` and `while` loops
 - Functions and function calls
 - Arrays and iteration
 - Problem-solving using loops
 
-**Programs**
+### Programs
 - Print numbers from 1 to 50  
 - Sum of array elements  
 - Find maximum element in an array  
 - Factorial using function and loop  
 - Reverse a string  
 
-**Learning Outcome**
-- Learned how loops handle repetitive tasks  
-- Improved logical thinking and array manipulation  
-- Gained better understanding of functions  
+### Learning Outcome
+- Improved logical thinking  
+- Understood function structure and reusability  
+- Strengthened array manipulation skills  
 
 ---
 
-### ✅ Day 3 – Objects & Arrays
-**Topics Covered**
+## ✅ Day 3 – Objects & Arrays
+
+### Topics Covered
 - JavaScript objects
 - Arrays of objects
 - Nested objects
 - Iteration and filtering
 
-**Programs**
+### Programs
 - Created a student object (`name`, `age`, `marks`)  
-- Accessed and printed object properties  
-- Updated object values and added new properties  
-- Created an array of student objects  
+- Accessed and updated object properties  
+- Created array of student objects  
 - Filtered students with marks greater than 50  
-- Accessed and updated nested object data  
+- Worked with nested object data  
 
-**Learning Outcome**
-- Understood how objects store structured data  
-- Learned to work with arrays of objects  
-- Improved real-world data modeling skills  
+### Learning Outcome
+- Understood structured data representation  
+- Learned real-world data modeling  
+- Improved object handling skills  
 
 ---
 
-### ✅ Day 4 – ES6 Modern JavaScript
-**Topics Covered**
+## ✅ Day 4 – ES6 Modern JavaScript
+
+### Topics Covered
 - Arrow functions
 - Object and array destructuring
 - Spread and rest operators
 - Template literals
 
-**Programs**
+### Programs
 - Refactored previous code using arrow functions  
-- Used destructuring with objects and arrays  
-- Applied template literals for cleaner output  
-- Used spread and rest operators for array manipulation  
+- Applied destructuring in objects and arrays  
+- Used template literals for cleaner output  
+- Used spread/rest operators for array manipulation  
 
-**Learning Outcome**
-- Wrote cleaner and more readable JavaScript  
-- Understood modern JavaScript used in real projects  
-- Improved code maintainability and clarity  
+### Learning Outcome
+- Wrote cleaner and modern JavaScript  
+- Improved readability and maintainability  
 
 ---
 
-### ✅ Day 5 – Node.js Basics
-**Topics Covered**
+## ✅ Day 5 – Node.js Basics
+
+### Topics Covered
 - Node.js runtime environment
 - npm basics
 - Running JavaScript outside the browser
 - Creating a basic HTTP server
 
-**Programs**
+### Implementation
 - Setup Node.js and npm  
-- Created a basic Node.js script  
+- Created basic Node.js script  
 - Built a simple HTTP server  
-- Sent “Hello World” response from the server  
+- Sent “Hello World” response  
 
-**Learning Outcome**
-- Understood Node.js as a backend runtime  
-- Learned how server-side JavaScript works  
+### Learning Outcome
+- Understood server-side JavaScript  
 - Built first backend server using Node.js  
 
 ---
 
-### ✅ Day 6 – Node.js CLI + JSON File CRUD
-**Topics Covered**
+## ✅ Day 6 – Node.js CLI + JSON File CRUD
+
+### Topics Covered
 - Node.js `fs` module  
 - JSON file handling  
-- Command-line arguments using `process.argv`  
+- Command-line arguments (`process.argv`)  
 - Backend CRUD logic without frameworks  
 
-**Programs**
-- Created a `students.json` file  
-- Built a CLI-based CRUD application:
-  - Add student  
-  - Update student  
-  - Delete student  
-  - View all students  
+### Implementation
+Built a CLI-based CRUD application:
+- Add student  
+- Update student  
+- Delete student  
+- View all students  
 
-**Learning Outcome**
-- Understood backend logic without Express  
-- Learned file-based data persistence  
-- Built a mini backend system using Node.js CLI  
+### Learning Outcome
+- Understood backend logic deeply  
+- Learned file-based persistence  
+- Practiced building structured backend systems  
 
 ---
 
-## 🛠 Tech Stack
+### Day 7 – Refactoring & Code Structure
+- Separated routes into `/routes`
+- Moved database logic into `/models`
+- Implemented controller pattern
+- Cleaned code and removed duplication
+- Improved folder structure
+
+---
+
+# 🗓 Week 2 – Backend Development with Express.js
+
+## ✅ Day 8 – Express.js Fundamentals
+
+### Goal
+Understand routing, request/response handling, and middleware basics.
+
+### Topics Covered
+- Introduction to Express.js
+- Setting up an Express server
+- Routing with `GET` requests
+- Understanding `req` and `res`
+- Sending JSON responses
+
+### Project Structure
+
+```
+week1/
+├── server.js
+└── package.json
+```
+
+### API Routes
+- `GET /` → Returns `"API running"`
+- `GET /api/users` → Returns dummy JSON data
+
+### Example Response
+
+```json
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@example.com"
+  }
+]
+```
+
+### Learning Outcome
+- Understood how Express simplifies backend development  
+- Learned how APIs are structured  
+- Built first Express-based backend server  
+
+---
+
+## ✅ Day 9 – REST APIs (CRUD with Express)
+
+### Goal
+Think like a backend developer by implementing full CRUD operations.
+
+### Topics Covered
+- REST API architecture
+- HTTP methods (GET, POST, PUT, DELETE)
+- Route parameters (`:id`)
+- JSON request/response handling
+- API testing using Postman
+
+### Implementation
+Built an in-memory CRUD API using an array (no database yet).
+
+### CRUD Endpoints
+- `GET /students` → Fetch all students  
+- `POST /students` → Add a new student  
+- `PUT /students/:id` → Update student  
+- `DELETE /students/:id` → Delete student  
+
+### Tools Used
+- Express.js  
+- Postman  
+
+### Learning Outcome
+- Understood REST principles  
+- Learned how real backend APIs are structured  
+- Practiced route parameters and data handling  
+- Prepared foundation for MongoDB integration  
+
+---
+
+# 🛠 Tech Stack
+
 - JavaScript (ES6)
 - Node.js
+- Express.js
+- Postman
 - VS Code
 - Git & GitHub
 
 ---
 
-## 📈 Progress Tracker
+# 📈 Progress Tracker
+
 - [x] Week 1 – Day 1  
 - [x] Week 1 – Day 2  
 - [x] Week 1 – Day 3  
 - [x] Week 1 – Day 4  
 - [x] Week 1 – Day 5  
-- [x] Week 1 – Day 6 (CLI CRUD App)  
+- [x] Week 1 – Day 6  
+- [x] Week 1 – Day 7
+- [x] Week 2 – Day 8  
+- [x] Week 2 – Day 9  
 
 ---
 
-## 🎯 Goal
+# 🎯 Goal
+
 - Become placement-ready using the MERN stack  
 - Build and deploy real-world full-stack applications  
 - Maintain consistent daily progress with clean GitHub commits  
+- Develop strong backend + frontend integration skills  
