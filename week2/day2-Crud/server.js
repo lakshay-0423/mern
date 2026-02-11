@@ -18,6 +18,10 @@ let students = [
     }
 ];
 
+app.get("/students", (req, res) => {
+  res.json(students);
+});
+
 
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
