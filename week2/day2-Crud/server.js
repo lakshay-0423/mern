@@ -19,9 +19,20 @@ let students = [
 ];
 
 app.get("/students", (req, res) => {
-  res.json(students);
+    res.json(students);
 });
 
+app.post("/students", (req, res) => {
+    const { name, age } = req.body;
+    const newStudent = {
+        id: Date.now(),
+        name,
+        age
+    };
+
+    students.push(newStudent);
+    res.status(201).json(students);
+});
 
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
