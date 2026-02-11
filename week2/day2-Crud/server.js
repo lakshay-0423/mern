@@ -48,6 +48,19 @@ app.put("/students/:id", (req, res) => {
     res.json(students);
 });
 
+app.delete("/students/:id", (req, res) => {
+    const id = Number(req.params.id);
+
+    const student = students.find(s => s.id === id);
+    if (!student) {
+        return res.status(404).json({ msg: "Student not found" });
+    }
+
+    students = students.filter(s => s.id !== id);
+
+    res.json({msg : `deleted student with id ${id}`});
+});
+
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
